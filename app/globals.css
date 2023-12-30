@@ -11,8 +11,8 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 202, 240, 248;
-    --background-start-rgb: 103, 232, 249;
-    --background-end-rgb: 254, 240, 138;
+    --background-start-rgb: 28, 28, 33;
+    --background-end-rgb: 47, 48, 55;
   }
 }
 
@@ -24,4 +24,35 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+.top_horizontal_div {
+  @apply font-sans font-semibold text-base text-gray-200;
+}
+.top_horizontal_div:hover {
+  @apply text-emerald-400;
+}
+
+.border_top_div {
+  @apply border border-gray-800 rounded-full p-2;
+}
+
+.hello_word {
+  @apply text-6xl text-start mx-80 text-white font-bold p-5;
+}
+
+.intro {
+  @apply text-start mx-80 font-bold p-5;
+}
+
+.span_intro {
+  @apply text-xl text-gray-400 font-semibold;
+}
+
+.intro_css {
+  @apply text-base font-medium text-zinc-600 dark:text-zinc-400;
+}
+
+.social-media-div {
+  text-align: center;
 }
