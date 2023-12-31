@@ -37,15 +37,15 @@ export default function Home() {
                   I love to work with diverse group of people to build great products and get my professional skills polished.
                 </p>
               </div>
-              <div className='flex flex-row mx-80 space-x-4 p-5'>
+              <div className='social_media_contact_me_div_css'>
                 <div>
                   {/* Github Button */}
-                  <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/HVMS" target="_blank" rel="noopener noreferrer">
                     <button
                       type="button"
                       data-te-ripple-init
                       data-te-ripple-color="light"
-                      className="mb-2 inline-flex items-center justify-center rounded-full p-4 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
+                      className="social_media_css"
                       style={{ backgroundColor: '#333333' }}>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -60,12 +60,12 @@ export default function Home() {
                 </div>
                 {/* Instagram Button */}
                 <div>
-                  <a href="https://instagram.com/yourusername" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.instagram.com/viru_1116/" target="_blank" rel="noopener noreferrer">
                     <button
                       type="button"
                       data-te-ripple-init
                       data-te-ripple-color="light"
-                      className="mb-2 inline-flex items-center justify-center rounded-full p-4 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
+                      className="social_media_css"
                       style={{ backgroundColor: '#E4405F' }}>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -80,12 +80,12 @@ export default function Home() {
                 </div>
                 {/* Google Account */}
                 <div>
-                  <a href="mailto:youremail@example.com">
+                  <a href="mailto:viralsid2330@gmail.com">
                     <button
                       type="button"
                       data-te-ripple-init
                       data-te-ripple-color="light"
-                      className="mb-2 inline-flex items-center justify-center rounded-full p-4 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
+                      className="social_media_css"
                       style={{ backgroundColor: '#EA4335' }}>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -105,7 +105,7 @@ export default function Home() {
                       type="button"
                       data-te-ripple-init
                       data-te-ripple-color="light"
-                      className="mb-2 inline-flex items-center justify-center rounded-full p-4 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
+                      className="social_media_css"
                       style={{ backgroundColor: '#0D76A9' }}>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -118,6 +118,11 @@ export default function Home() {
                     </button>
                   </a>
                 </div>
+              </div>
+              <div className='social_media_contact_me_div_css'>
+                <button className='contact_me_button'>
+                  Contact me
+                </button>
               </div>
             </div>
             <div className='flex flex-col w-1/3'>
