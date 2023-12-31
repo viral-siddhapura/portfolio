@@ -53,3 +53,15 @@ body {
   @apply text-base font-medium text-zinc-600 dark:text-zinc-400;
 }
 
+.contact_me_button {
+  @apply p-3 w-44 items-center justify-center rounded-md bg-green-400 hover:bg-green-500 text-gray-950 font-bold;
+}
+
+.social_media_css {
+  @apply mb-2 inline-flex items-center justify-center rounded-full p-3.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg;
+}
+
+.social_media_contact_me_div_css {
+  @apply flex flex-row mx-80 space-x-4 p-4;
+}
+
