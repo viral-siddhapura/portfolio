@@ -134,6 +134,29 @@ export default function Home() {
               />
             </div>
           </div>
+          <footer>
+              <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+                <span className="text-normal text-white sm:text-center">© 2024 <a href="#" className="text-green-400">Viral Siddhapura</a>. All Rights Reserved.
+              </span>
+              <ul className="flex flex-wrap items-center mt-3 text-normal font-medium text-white sm:mt-0">
+                  <li>
+                      <a href="#" className="footer_text">About</a>
+                  </li>
+                  <li>
+                      <a href="#" className="footer_text">Experience</a>
+                  </li>
+                  <li>
+                      <a href="#" className="footer_text">Projects</a>
+                  </li>
+                  <li>
+                      <a href="#" className="footer_text">Education</a>
+                  </li>
+                  <li>
+                      <a href="#" className="footer_text">Contact</a>
+                  </li>
+              </ul>
+              </div>
+          </footer>
         </div>
       }
     </main>
