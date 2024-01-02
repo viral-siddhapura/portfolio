@@ -65,3 +65,7 @@ body {
   @apply flex flex-row mx-80 space-x-4 p-4;
 }
 
+.footer_text {
+  @apply hover:text-emerald-400 me-4;
+}
+
