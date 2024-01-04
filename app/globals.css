@@ -54,7 +54,8 @@ body {
 }
 
 .contact_me_button {
-  @apply p-3 w-44 items-center justify-center rounded-md bg-green-400 hover:bg-green-500 text-gray-950 font-bold;
+  @apply p-3 w-44 items-center justify-center rounded-md bg-sky-300 hover:bg-sky-500 text-black font-semibold
+         transition delay-150 duration-300 ease-in-out hover:-translate-y-1;
 }
 
 .social_media_css {
