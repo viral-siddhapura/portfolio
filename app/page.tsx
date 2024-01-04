@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -9,19 +10,19 @@ export default function Home() {
             <div className='border_top_div bg-zinc-800'>
               <div className="flex flex-row space-x-6 mx-5">
                 <div>
-                  <p className='top_horizontal_div'>About</p>
+                  <Link className='top_horizontal_div' href={'/about'}>About</Link>
                 </div>
                 <div>
-                  <p className='top_horizontal_div'>Experience</p>
+                  <Link className='top_horizontal_div' href={'/experience'}>Experience</Link>
                 </div>
                 <div>
-                  <p className='top_horizontal_div'>Projects</p>
+                  <Link className='top_horizontal_div' href={'/projects'}>Projects</Link>
                 </div>
                 <div>
-                  <p className='top_horizontal_div'>Education</p>
+                  <Link className='top_horizontal_div' href={'/education'}>Education</Link>
                 </div>
                 <div>
-                  <p className='top_horizontal_div'>Contact</p>
+                  <Link className='top_horizontal_div' href={'/contact'}>Contact</Link>
                 </div>
               </div>
             </div>
@@ -123,6 +124,9 @@ export default function Home() {
                 <button className='contact_me_button'>
                   Contact me
                 </button>
+                <button className='contact_me_button'>
+                  See my Resume
+                </button>
               </div>
             </div>
             <div className='flex flex-col w-1/3'>
@@ -136,7 +140,7 @@ export default function Home() {
           </div>
           <footer>
               <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
-                <span className="text-normal text-white sm:text-center">© 2024 <a href="#" className="text-green-400">Viral Siddhapura</a>. All Rights Reserved.
+                <span className="text-normal text-white sm:text-center">© 2024 <a href="#">Viral Siddhapura</a>. All Rights Reserved.
               </span>
               <ul className="flex flex-wrap items-center mt-3 text-normal font-medium text-white sm:mt-0">
                   <li>
