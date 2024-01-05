@@ -4,7 +4,9 @@ export default function Projects() {
     return (
         <main className='flex min-h-screen flex-col'>
         {
-            <h1>Projects Section</h1>
+            <div className='flex flex-col'>
+                
+            </div>
         }
         </main>
     );    
