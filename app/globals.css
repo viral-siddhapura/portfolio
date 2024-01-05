@@ -26,6 +26,12 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+.sticky-nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
 .top_horizontal_div {
   @apply font-sans font-semibold text-base text-gray-200;
 }
