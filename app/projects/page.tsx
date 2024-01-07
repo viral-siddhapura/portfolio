@@ -1,5 +1,7 @@
 import Image from 'next/image'
 import NavigationBar from '../navigation_bar';
+import ProjectList from './project_list';
+import Footer from '../footer';
 
 export default function Projects() {
     const project_title = "Welcome To My Universe.";
@@ -11,8 +13,8 @@ export default function Projects() {
                         <NavigationBar />
                     </div>
                     <div className='flex flex-col'>
-                        <div className='flex flex-row my-20  justify-center'>
-                            <div className='flex flex-col'>
+                        <div className='flex flex-row my-20 justify-center'>
+                            <div className='flex flex-row'>
                                 <h1 className="overflow-hidden leading-6 text-white">
                                     {project_title.match(/./gu)!.map((char, index) => (
                                         <span
@@ -27,6 +29,7 @@ export default function Projects() {
                             </div>
                         </div>
                     </div>
+                    <ProjectList />
                 </div>
             }
         </main>
