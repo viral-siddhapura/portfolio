@@ -98,8 +98,21 @@ body {
   }
 }
 
+.animate-fadeIn {
+  animation: fadeIn 2.5s ease-in forwards;
+}
+
 .project_card {
-  @apply max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:hover:bg-gray-700 dark:bg-zinc-900 dark:border-gray-700;
+  @apply transition-opacity duration-500 ease-in opacity-0 animate-fadeIn max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-sm dark:shadow-green-100 dark:bg-zinc-900 dark:border-gray-700;
+}
+
+@keyframes fadeIn {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
 }
 
 .project_title {
@@ -113,3 +126,5 @@ body {
 .project_link {
   @apply inline-flex items-center text-blue-600 hover:underline;
 }
+
+/* Use in Project Card CSS views: dark:hover:bg-gray-700 */
