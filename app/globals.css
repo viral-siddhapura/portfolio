@@ -13,8 +13,8 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 202, 240, 248;
-    --background-start-rgb: 28, 28, 33;
-    --background-end-rgb: 47, 48, 55;
+    --background-start-rgb: 24,24,27;
+    --background-end-rgb: 24,24,27;
   }
 }
 
@@ -37,6 +37,7 @@ body {
 .top_horizontal_div {
   @apply font-sans font-semibold text-base text-gray-200;
 }
+
 .top_horizontal_div:hover {
   @apply text-emerald-400;
 }
@@ -95,4 +96,20 @@ body {
   100% {
     transform: translate(0, 0);
   }
+}
+
+.project_card {
+  @apply max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:hover:bg-gray-700 dark:bg-zinc-900 dark:border-gray-700;
+}
+
+.project_title {
+  @apply mb-2 mt-5 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white;
+}
+
+.project_description {
+  @apply mb-3 font-normal text-gray-500 dark:text-gray-400;
+}
+
+.project_link {
+  @apply inline-flex items-center text-blue-600 hover:underline;
 }
