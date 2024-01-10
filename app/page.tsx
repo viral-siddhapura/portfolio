@@ -6,9 +6,9 @@ import Footer from './footer';
 
 export default function Home() {
   return (
-    <main className='flex min-h-screen flex-row'>
+    <main className='flex min-h-screen flex-col'>
       {
-        <div className='flex flex-col'>
+        <div className='flex flex-col flex-grow p-5'>
           <div className='sticky-nav'>
             <NavigationBar />
           </div>
