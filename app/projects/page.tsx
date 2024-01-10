@@ -2,13 +2,14 @@ import Image from 'next/image'
 import NavigationBar from '../navigation_bar';
 import ProjectList from './project_list';
 import Footer from '../footer';
+import Link from "next/link";
 
 export default function Projects() {
-    const project_title = "Welcome To My Universe.";
+    const project_title = ".";
     return (
-        <main className='flex min-h-screen flex-col'>
+        <main className='flex flex-col'>
             {
-                <div className='flex flex-col'>
+                <div className='flex flex-col p-5'>
                     <div className='sticky-nav'>
                         <NavigationBar />
                     </div>
@@ -30,6 +31,12 @@ export default function Projects() {
                         </div>
                     </div>
                     <ProjectList />
+                    <div className='flex flex-row justify-center mt-20 mb-20'>
+                        <Link href="https://github.com/HVMS/" target="_blank" className="projects_button">
+                            More Projects (GitHub)
+                        </Link>
+                    </div>
+                    <Footer/>
                 </div>
             }
         </main>
