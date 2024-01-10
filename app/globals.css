@@ -67,6 +67,11 @@ body {
          transition delay-150 duration-300 ease-in-out hover:-translate-y-1;
 }
 
+.projects_button {
+  @apply p-3 w-52 rounded-md bg-sky-300 hover:bg-sky-500 text-black font-semibold 
+          transition delay-150 duration-300 ease-in-out hover:-translate-y-1;
+}
+
 .social_media_css {
   @apply mb-2 inline-flex items-center justify-center rounded-full p-3.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg;
 }
@@ -103,7 +108,7 @@ body {
 }
 
 .project_card {
-  @apply transition-opacity duration-500 ease-in opacity-0 animate-fadeIn max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-sm dark:shadow-green-100 dark:bg-zinc-900 dark:border-gray-700;
+  @apply transition-opacity ease-in-out opacity-0 animate-fadeIn max-w-sm p-6 bg-white border border-gray-200 rounded-lg dark:bg-zinc-900 dark:border-gray-700;
 }
 
 @keyframes fadeIn {
