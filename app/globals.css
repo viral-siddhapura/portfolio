@@ -88,10 +88,16 @@ body {
   animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
   font-family: 'Cutive Mono', monospace;
   overflow: hidden;
-  font-size: 4rem;
+  /* write text color */
+  color: #6080D9;
+  font-size: 6rem;
   font-weight: 600;
   line-height: 1.2;
   animation-fill-mode: backwards;
+}
+
+.delay-4s {
+  animation-delay: 10s;
 }
 
 @keyframes reveal {
@@ -104,7 +110,7 @@ body {
 }
 
 .animate-fadeIn {
-  animation: fadeIn 2.5s ease-in forwards;
+  animation: fadeIn 3.5s ease-in forwards;
 }
 
 .project_card {
