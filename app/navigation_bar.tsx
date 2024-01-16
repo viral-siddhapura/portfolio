@@ -7,7 +7,7 @@ export default function NavigationBar() {
             <div className='border_top_div bg-zinc-800'>
                 <div className="flex flex-row space-x-6 mx-5">
                     <div>
-                        <Link className='top_horizontal_div' href={'/about'}>About</Link>
+                        <Link className='top_horizontal_div' href={'/'}>About</Link>
                     </div>
                     <div>
                         <Link className='top_horizontal_div' href={'/experience'}>Experience</Link>
