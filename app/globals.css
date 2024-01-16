@@ -62,6 +62,14 @@ body {
   @apply text-base font-medium text-zinc-600 dark:text-zinc-400;
 }
 
+.education_css {
+  @apply text-base font-semibold text-zinc-600 dark:text-zinc-400;
+}
+
+.university_card_css {
+  @apply text-lg font-semibold text-zinc-600 dark:text-zinc-400 ;
+}
+
 .contact_me_button {
   @apply p-3 w-44 items-center justify-center rounded-md bg-sky-300 hover:bg-sky-500 text-black font-semibold
          transition delay-150 duration-300 ease-in-out hover:-translate-y-1;
@@ -89,7 +97,7 @@ body {
   font-family: 'Cutive Mono', monospace;
   overflow: hidden;
   /* write text color */
-  color: #6080D9;
+  color: #fff;
   font-size: 6rem;
   font-weight: 600;
   line-height: 1.2;
@@ -115,6 +123,10 @@ body {
 
 .project_card {
   @apply transition-opacity ease-in-out opacity-0 animate-fadeIn max-w-sm p-6 bg-white border border-gray-200 rounded-lg dark:bg-zinc-900 dark:border-gray-700;
+}
+
+.education_card {
+  @apply transition-opacity ease-in-out opacity-0 animate-fadeIn border border-white rounded-lg shadow-md shadow-white;
 }
 
 @keyframes fadeIn {
