@@ -9,7 +9,7 @@ export default function Home() {
     <main className='flex min-h-screen flex-col'>
       {
         <div className='flex flex-col flex-grow p-5'>
-          <div className='sticky-nav'>
+          <div>
             <NavigationBar />
           </div>
           <div className='flex flex-row my-20'>
@@ -28,9 +28,12 @@ export default function Home() {
                 <button className='contact_me_button'>
                   Contact me
                 </button>
-                <button className='contact_me_button'>
-                  See my Resume
-                </button>
+                <Link href={'https://drive.google.com/file/d/15cNEgKz8EnYlLc-w5lMPw--1hJDUlj00/view?usp=drive_link'}
+                      target='_blank' >
+                  <button className='contact_me_button'>
+                    See my Resume
+                  </button>
+                </Link>
               </div>
             </div>
             <div className='flex flex-col w-1/3'>

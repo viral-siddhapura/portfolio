@@ -10,7 +10,7 @@ export default function Projects() {
         <main className='flex flex-col'>
             {
                 <div className='flex flex-col p-5'>
-                    <div className='sticky-nav'>
+                    <div>
                         <NavigationBar />
                     </div>
                     <div className='flex flex-col'>
