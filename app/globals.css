@@ -66,6 +66,14 @@ body {
   @apply text-base font-semibold text-zinc-600 dark:text-zinc-400;
 }
 
+.university_name {
+  @apply text-2xl font-semibold text-black dark:text-white;
+}
+
+.course_name {
+  @apply text-lg font-semibold text-black dark:text-zinc-400;
+}
+
 .university_card_css {
   @apply text-lg font-semibold text-zinc-600 dark:text-zinc-400 ;
 }
@@ -126,7 +134,15 @@ body {
 }
 
 .education_card {
-  @apply transition-opacity ease-in-out opacity-0 animate-fadeIn border border-white rounded-lg shadow-md shadow-white;
+  @apply transition-opacity ease-in-out opacity-0 animate-fadeIn border dark:border-gray-700 rounded-lg hover:shadow-md hover:shadow-white;
+}
+
+.vertical_border{
+  @apply border-r border-gray-200 dark:border-gray-700;
+}
+
+.text_over_image {
+  @apply absolute w-full py-2.5 rounded-bl-md bottom-0 inset-x-0 bg-gray-700 text-black dark:text-white font-medium text-center leading-4;
 }
 
 @keyframes fadeIn {
