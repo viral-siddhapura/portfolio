@@ -154,6 +154,50 @@ export default function Education() {
                             </div>
                         </div>
                     </div>
+                    <div className='flex flex-col mt-20 justify-center items-center'>
+                        <p className='text-2xl font-bold dark:text-white text-black'>Certifications</p>
+                        <div className="flex-grow grid grid-cols-3 grid-rows-2 gap-10 mt-20">
+                            <div className='outer_certificate_aws'>
+                                <div className='inner_certificate_aws'>
+                                    <Image
+                                        src='/images/aws_logo.svg'
+                                        width={100}
+                                        height={0}
+                                        alt={'education image'}
+                                    ></Image>
+                                </div>
+                                <div className='flex flex-row basis-1/3 justify-center'>
+                                    <p className='text-lg font-medium text-zinc-400 py-5'>AWS Cloud Practitioner</p>
+                                </div>
+                            </div>
+                            <div className='outer_certificate_aws'>
+                                <div className='inner_certificate_aws'>
+                                    <Image
+                                        src='/images/aws_logo.svg'
+                                        width={100}
+                                        height={0}
+                                        alt={'education image'}
+                                    ></Image>
+                                </div>
+                                <div className='flex flex-row basis-1/3 justify-center'>
+                                    <p className='text-lg font-medium text-zinc-400 py-5'>Azure Cloud Fundamentals</p>
+                                </div>
+                            </div>
+                            <div className='outer_certificate_aws'>
+                                <div className='inner_certificate_aws'>
+                                    <Image
+                                        src='/images/aws_logo.svg'
+                                        width={100}
+                                        height={0}
+                                        alt={'education image'}
+                                    ></Image>
+                                </div>
+                                <div className='flex flex-row basis-1/3 justify-center'>
+                                    <p className='text-lg font-medium text-zinc-400 py-5'>AI and Data Science by IBM</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             }
         </main>
