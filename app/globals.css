@@ -137,6 +137,14 @@ body {
   @apply transition-opacity ease-in-out opacity-0 animate-fadeIn border dark:border-gray-700 rounded-lg hover:shadow-md hover:shadow-white;
 }
 
+.outer_certificate_aws {
+  @apply border dark:border-gray-700 rounded-lg hover:shadow-md hover:shadow-orange-300;
+}
+
+.inner_certificate_aws {
+  @apply flex flex-row basis-2/3 px-36 py-4 bg-orange-300 rounded-tl-lg rounded-tr-lg;
+}
+
 .vertical_border{
   @apply border-r border-gray-200 dark:border-gray-700;
 }
