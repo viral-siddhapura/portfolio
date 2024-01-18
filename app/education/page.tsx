@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import NavigationBar from '../navigation_bar';
+import Link from 'next/link';
 
 export default function Education() {
     const project_title = "Education";
@@ -7,7 +8,7 @@ export default function Education() {
         <main className='flex flex-col'>
             {
                 <div className='flex flex-col p-5'>
-                    <div className='sticky-nav'>
+                    <div>
                         <NavigationBar />
                     </div>
                     <div className='flex flex-col'>
@@ -33,23 +34,28 @@ export default function Education() {
                     </div>
                     <div className='flex flex-row mt-20 justify-center items-center'>
                         <div className='education_card flex flex-row'>
-                            <div className='flex flex-col flex-grow p-5'>
+                            <div className='relative flex flex-col flex-grow p-5 overflow-hidden'>
                                 <Image
-                                    className='object-contain p-10 rounded-none'
-                                    src='/images/dal_white.png'
-                                    width={300}
+                                    className='object-contain p-10 rounded-lg'
+                                    src='/images/dal_1.png'
+                                    width={250}
                                     height={200}
                                     alt={'education image'}
                                 />
+                                <Link href={'https://www.dal.ca/'} target='_blank' className='mt-5'>
+                                    <div className="text_over_image">
+                                        Visit Website
+                                    </div>
+                                </Link>
                             </div>
-                            <div style={{borderLeft: "2px solid white"}}></div>
+                            <div className='vertical_border'></div>
                             <div className='flex flex-col flex-grow p-10'>
                                 <div className='flex flex-col'>
                                     <div className='flex flex-row justify-between'>
-                                        <p>Master of Applied Computer Science</p>
-                                        <p>2022-2023</p>
+                                        <p className='university_name'>Dalhousie University</p>
+                                        <p className='course_name'>2022-2023</p>
                                     </div>
-                                    <p>Halifax, Canada</p>
+                                    <p className='course_name'>Master of Applied Computer Science</p>
                                 </div>
                                 <div className='flex flex-row mt-10'>
                                     <div className='flex flex-row justify-between'>
@@ -60,7 +66,7 @@ export default function Education() {
                                             alt={'education image'}
                                         />
                                     </div>
-                                    <p className='ml-2'>Studied Advanced Software Development concepts with SOLID and Design Pattern practices</p>
+                                    <p className='course_name ml-2'>Studied Advanced Software Development concepts with SOLID and Design Pattern practices</p>
                                 </div>
                                 <div className='flex flex-row mt-2'>
                                     <div className='flex flex-row justify-between'>
@@ -71,7 +77,7 @@ export default function Education() {
                                             alt={'education image'}
                                         />
                                     </div>
-                                    <p className='ml-2'>Achieved certifications in Cloud Infrastructure - Amazon Web Services and Azure Cloud Platform</p>
+                                    <p className='course_name ml-2'>Achieved certifications in Cloud Infrastructure - Amazon Web Services and Azure Cloud Platform</p>
                                 </div>
                                 <div className='flex flex-row mt-2'>
                                     <div className='flex flex-row justify-between'>
@@ -82,14 +88,70 @@ export default function Education() {
                                             alt={'education image'}
                                         />
                                     </div>
-                                    <p className='ml-2'>Diverse projects with combination of front-end and back-end technologies</p>
+                                    <p className='course_name ml-2'>Diverse projects with combination of front-end and back-end technologies</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className='flex flex-row'>
-                        <div className='flex flex-row basis-1/5'></div>
-                        <div className='flex flex-row basis-4/5 p-4'>
+                    <div className='flex flex-row mt-20 justify-center items-center'>
+                        <div className='education_card flex flex-row'>
+                            <div className='relative flex flex-col flex-grow p-5 overflow-hidden'>
+                                <Image
+                                    className='object-contain p-10 rounded-none'
+                                    src='/images/nirma_white.png'
+                                    width={250}
+                                    height={200}
+                                    alt={'education image'}
+                                />
+                                <Link href={'https://nirmauni.ac.in/'} target='_blank' className='mt-5'>
+                                    <div className="text_over_image">
+                                        Visit Website
+                                    </div>
+                                </Link>
+                            </div>
+                            <div className='vertical_border'></div>
+                            <div className='flex flex-col flex-grow p-10'>
+                                <div className='flex flex-col'>
+                                    <div className='flex flex-row justify-between'>
+                                        <p className='university_name'>Nirma University</p>
+                                        <p className='course_name'>2016-2020</p>
+                                    </div>
+                                    <p className='course_name'>B.Tech in Information Technology</p>
+                                </div>
+                                <div className='flex flex-row mt-10'>
+                                    <div className='flex flex-row justify-between'>
+                                        <Image
+                                            src='/images/light.svg'
+                                            width={25}
+                                            height={25}
+                                            alt={'education image'}
+                                        />
+                                    </div>
+                                    <p className='course_name ml-2'>Studied core subjects like Data Structures, DBMS, Networking, Security, etc.</p>
+                                </div>
+                                <div className='flex flex-row mt-2'>
+                                    <div className='flex flex-row justify-between'>
+                                        <Image
+                                            src='/images/light.svg'
+                                            width={25}
+                                            height={25}
+                                            alt={'education image'}
+                                        />
+                                    </div>
+                                    <p className='course_name ml-2'>Completed various online courses for ML/DL, Web Development, Mobile App Development, etc.</p>
+                                </div>
+                                <div className='flex flex-row mt-2'>
+                                    <div className='flex flex-row justify-between'>
+                                        <Image
+                                            src='/images/light.svg'
+                                            width={25}
+                                            height={25}
+                                            alt={'education image'}
+                                        />
+                                    </div>
+                                    <p className='course_name ml-2'>Implemented several projects based on what I've learnt under my Computer Engineering course.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
