@@ -133,16 +133,12 @@ body {
   @apply transition-opacity ease-in-out opacity-0 animate-fadeIn max-w-sm p-6 bg-white border border-gray-200 rounded-lg dark:bg-zinc-900 dark:border-gray-700;
 }
 
+.certification_animation {
+  @apply transition-opacity ease-in-out opacity-0 animate-fadeIn;
+}
+
 .education_card {
   @apply transition-opacity ease-in-out opacity-0 animate-fadeIn border dark:border-gray-700 rounded-lg hover:shadow-md hover:shadow-white;
-}
-
-.outer_certificate_aws {
-  @apply border dark:border-gray-700 rounded-lg hover:shadow-md hover:shadow-orange-300;
-}
-
-.inner_certificate_aws {
-  @apply flex flex-row basis-2/3 px-36 py-4 bg-orange-300 rounded-tl-lg rounded-tr-lg;
 }
 
 .vertical_border{

@@ -16,6 +16,7 @@ const config: Config = {
       colors:{
         'project_background_color': 'rgb(24, 24, 27)',
         'project_item_card_bg' : 'rgb(47, 48, 55)',
+        'ibm_blue': 'rgb(208,226,254)',
       },
     },
   },

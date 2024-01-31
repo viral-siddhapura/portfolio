@@ -11,7 +11,7 @@ export default function SocialMedia() {
                         type="button"
                         data-te-ripple-init
                         data-te-ripple-color="light"
-                        className="social_media_css"
+                        className="social_media_css hover:shadow-lg hover:shadow-zinc-800"
                         style={{ backgroundColor: '#333333' }}>
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -31,7 +31,7 @@ export default function SocialMedia() {
                         type="button"
                         data-te-ripple-init
                         data-te-ripple-color="light"
-                        className="social_media_css"
+                        className="social_media_css hover:shadow-lg hover:shadow-rose-500"
                         style={{ backgroundColor: '#E4405F' }}>
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -51,7 +51,7 @@ export default function SocialMedia() {
                         type="button"
                         data-te-ripple-init
                         data-te-ripple-color="light"
-                        className="social_media_css"
+                        className="social_media_css hover:shadow-lg hover:shadow-red-400"
                         style={{ backgroundColor: '#EA4335' }}>
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -71,7 +71,7 @@ export default function SocialMedia() {
                         type="button"
                         data-te-ripple-init
                         data-te-ripple-color="light"
-                        className="social_media_css"
+                        className="social_media_css hover:shadow-lg hover:shadow-cyan-300"
                         style={{ backgroundColor: '#0D76A9' }}>
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
