@@ -25,11 +25,13 @@ export default function Home() {
               </div>
               <SocialMedia />
               <div className='social_media_contact_me_div_css'>
-                <button className='contact_me_button'>
-                  Contact me
-                </button>
+                <Link href={'/contact'}>
+                  <button className='contact_me_button'>
+                    Contact me
+                  </button>
+                </Link>
                 <Link href={'https://drive.google.com/file/d/15cNEgKz8EnYlLc-w5lMPw--1hJDUlj00/view?usp=drive_link'}
-                      target='_blank' >
+                  target='_blank' >
                   <button className='contact_me_button'>
                     See my Resume
                   </button>
