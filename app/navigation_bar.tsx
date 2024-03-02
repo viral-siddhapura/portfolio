@@ -5,7 +5,7 @@ export default function NavigationBar() {
     return (
         <div className='flex flex-row items-center justify-center p-8'>
             <div className='border_top_div bg-zinc-800'>
-                <div className="flex flex-row space-x-6 mx-5">
+                <div className="flex flex-row sm:flex-row sm:space-x-6 mx-2 space-x-6">
                     <div>
                         <Link className='top_horizontal_div' href={'/'}>About</Link>
                     </div>
