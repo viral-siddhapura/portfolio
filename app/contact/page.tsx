@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import NavigationBar from '../navigation_bar'
 import Footer from '../footer'
+import ContactForm from './form';
 import SocialMedia from '../social_media';
 import Link from 'next/link';
 
@@ -38,8 +39,8 @@ export default function Contact() {
                     <div>
                         <div className="grid sm:grid-cols-2 items-center gap-16 my-6 mx-auto max-w-4xl text-[#333] font-[sans-serif]">
                             <div>
-                                <h1 className="text-3xl font-bold text-white">Let's Talk</h1>
-                                <p className="text-md text-gray-500 dark:text-gray-400 mt-3">Have some big idea or brand to develop and need help? Then reach out I'd love to hear about your project  and provide help.</p>
+                                <h1 className="text-3xl font-bold text-white">Am I right fit?</h1>
+                                <p className="text-md text-gray-500 dark:text-gray-400 mt-3">Are you seeking a versatile and innovative software engineer with a proven track record in full-stack development, cloud architecture, and DevOps?</p>
                                 <div className="mt-12">
                                     <h2 className="text-3xl font-bold text-white">Email</h2>
                                     <ul className="mt-3">
@@ -52,9 +53,8 @@ export default function Contact() {
                                                         data-original="#000000" />
                                                 </svg>
                                             </div>
-                                            <a href="mailto:viralsid2330@gmail.com" className="text-[#9CA3AF] text-sm ml-3">
-                                                <small className="block">Mail</small>
-                                                <strong>viralsid2330@gmail.com</strong>
+                                            <a href="mailto:viral.siddhapurra@gmail.com" className="text-[#9CA3AF] text-lg ml-3">
+                                                <strong>viral.siddhapurra@gmail.com</strong>
                                             </a>
                                         </li>
                                     </ul>
@@ -129,18 +129,7 @@ export default function Contact() {
                                     </ul>
                                 </div>
                             </div>
-                            <form className="ml-auo space-y-4 rounded-lg p-5 bg-[#303030] shadow-md shadow-gray-600">
-                                <input type='text' placeholder='Name'
-                                    className="w-full rounded-md py-3 px-4 bg-[#292929] text-sm outline-[#ce6621]" />
-                                <input type='email' placeholder='Email'
-                                    className="w-full rounded-md py-3 px-4 bg-[#292929] text-sm outline-[#ce6621]" />
-                                <input type='text' placeholder='Subject'
-                                    className="w-full rounded-md py-3 px-4 bg-[#292929] text-sm outline-[#ce6621]" />
-                                <textarea placeholder='Message' rows={6}
-                                    className="w-full rounded-md py-3 px-4 bg-[#292929] text-sm outline-[#ce6621]"></textarea>
-                                <button type='button'
-                                    className="text-black bg-[#FFFFFF] hover:bg-blue-600 font-semibold rounded-md text-sm px-4 py-3 w-full">SEND</button>
-                            </form>
+                            <ContactForm></ContactForm>
                         </div>
                     </div>
                     <Footer />

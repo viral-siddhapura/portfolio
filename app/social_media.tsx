@@ -131,7 +131,7 @@ export default function SocialMedia() {
             </div>
             {/* Google Account */}
             <div>
-                <Link href="mailto:viralsid2330@gmail.com">
+                <Link href="mailto:viral.siddhapurra@gmail.com">
                     <button
                         type="button"
                         className="social_media_css hover:shadow-lg hover:shadow-red-400"
