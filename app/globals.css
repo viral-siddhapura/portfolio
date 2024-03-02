@@ -170,4 +170,34 @@ body {
   @apply inline-flex items-center text-blue-600 hover:underline;
 }
 
+.animation_slideIn_left{
+  animation: slideInLeftToRight 2s ease-in-out;
+}
+
+.animation_slideIn_right{
+  animation: slideInRightToLeft 2s ease-in-out;
+}
+
+@keyframes slideInLeftToRight {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInRightToLeft {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
 /* Use in Project Card CSS views: dark:hover:bg-gray-700 */
