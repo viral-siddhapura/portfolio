@@ -38,11 +38,11 @@ export default function Contact() {
                     </div> */}
                     <div>
                         <div className="grid sm:grid-cols-2 items-center gap-16 my-6 mx-auto max-w-4xl text-[#333] font-[sans-serif]">
-                            <div>
+                            <div className='animation_slideIn_left'>
                                 <h1 className="text-3xl font-bold text-white">Am I right fit?</h1>
-                                <p className="text-md text-gray-500 dark:text-gray-400 mt-3">Are you seeking a versatile and innovative software engineer with a proven track record in full-stack development, cloud architecture, and DevOps?</p>
+                                <p className="text-md text-zinc-500 dark:text-zinc-400 mt-3">Are you seeking a versatile and innovative software engineer with a proven track record in full-stack development, cloud architecture, and DevOps?</p>
                                 <div className="mt-12">
-                                    <h2 className="text-3xl font-bold text-white">Email</h2>
+                                    <h2 className="text-3xl font-bold text-white">Hire me</h2>
                                     <ul className="mt-3">
                                         <li className="flex items-center">
                                             <div className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
@@ -53,7 +53,7 @@ export default function Contact() {
                                                         data-original="#000000" />
                                                 </svg>
                                             </div>
-                                            <a href="mailto:viral.siddhapurra@gmail.com" className="text-[#9CA3AF] text-lg ml-3">
+                                            <a href="mailto:viral.siddhapurra@gmail.com" className="text-[rgb(113,113,122)] text-lg ml-3">
                                                 <strong>viral.siddhapurra@gmail.com</strong>
                                             </a>
                                         </li>
