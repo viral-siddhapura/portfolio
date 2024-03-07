@@ -156,7 +156,7 @@ export default function Education() {
                         </div>
                     </div>
                     <div className='flex flex-col mt-20 justify-center items-center'>
-                        <p className='text-2xl font-bold dark:text-white text-black'>Certifications 🎉</p>
+                        <p className='text-2xl font-bold dark:text-white text-white'>Certifications 🎉</p>
                         <div className="flex-grow grid grid-cols-3 grid-rows-2 gap-10 mt-20">
                             <Link href={'https://drive.google.com/file/d/1UIzWl-X6H1xr09N4dIswi_5AxoBMZ9kE/view?usp=drive_link'} target='_blank'>
                                 <div className='certification_animation border dark:border-gray-700 rounded-lg hover:shadow-lg hover:shadow-orange-300'>
