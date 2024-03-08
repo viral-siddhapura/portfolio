@@ -13,19 +13,16 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 202, 240, 248;
-    --background-start-rgb: 24,24,27;
-    --background-end-rgb: 24,24,27;
+    --background-start-rgb: 24, 24, 27;
+    --background-end-rgb: 24, 24, 27;
   }
 }
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
 
 .sticky-nav {
@@ -75,17 +72,15 @@ body {
 }
 
 .university_card_css {
-  @apply text-lg font-semibold text-zinc-600 dark:text-zinc-400 ;
+  @apply text-lg font-semibold text-zinc-600 dark:text-zinc-400;
 }
 
 .contact_me_button {
-  @apply p-3 w-44 items-center justify-center rounded-md bg-sky-300 hover:bg-sky-500 text-black font-semibold
-         transition delay-150 duration-300 ease-in-out hover:-translate-y-1;
+  @apply p-3 w-44 items-center justify-center rounded-md bg-sky-300 hover:bg-sky-500 text-black font-semibold transition delay-150 duration-300 ease-in-out hover:-translate-y-1;
 }
 
 .projects_button {
-  @apply p-3 w-52 rounded-md bg-sky-300 hover:bg-sky-500 text-black font-semibold 
-          transition delay-150 duration-300 ease-in-out hover:-translate-y-1;
+  @apply p-3 w-52 rounded-md bg-sky-300 hover:bg-sky-500 text-black font-semibold transition delay-150 duration-300 ease-in-out hover:-translate-y-1;
 }
 
 .social_media_css {
@@ -120,9 +115,33 @@ body {
   0% {
     transform: translate(0, 100%);
   }
+
   100% {
     transform: translate(0, 0);
   }
+}
+
+.experience_cardview{
+  background-color: rgb(24 24 27);
+  border: 1px solid #F9FAFC;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.experience_card {
+  height: 100%;
+  width: 100%;
+  background-color: bg-zinc-800;
+  border: 1px solid #F9FAFC;
+}
+
+.experience_first_content {
+  @apply flex float-left justify-between m-2;
+}
+
+.experience_second_content {
+  @apply flex float-right justify-between m-2;
 }
 
 .animate-fadeIn {
@@ -135,6 +154,7 @@ body {
     transform: scale(0);
     opacity: 0;
   }
+
   100% {
     transform: scale(1);
     opacity: 1;
@@ -165,7 +185,7 @@ body {
   @apply transition-opacity ease-in-out opacity-0 animate-fadeIn border dark:border-gray-700 rounded-lg hover:shadow-lg hover:shadow-white;
 }
 
-.vertical_border{
+.vertical_border {
   @apply border-r border-gray-200 dark:border-gray-700;
 }
 
@@ -174,10 +194,11 @@ body {
 }
 
 @keyframes fadeIn {
-  0%{
+  0% {
     opacity: 0;
   }
-  100%{
+
+  100% {
     opacity: 1;
   }
 }
@@ -194,11 +215,11 @@ body {
   @apply inline-flex items-center text-blue-600 hover:underline;
 }
 
-.animation_slideIn_left{
+.animation_slideIn_left {
   animation: slideInLeftToRight 2s ease-in-out;
 }
 
-.animation_slideIn_right{
+.animation_slideIn_right {
   animation: slideInRightToLeft 2s ease-in-out;
 }
 
@@ -207,6 +228,7 @@ body {
     transform: translateX(-100%);
     opacity: 0;
   }
+
   100% {
     transform: translateX(0);
     opacity: 1;
@@ -218,6 +240,7 @@ body {
     transform: translateX(100%);
     opacity: 0;
   }
+
   100% {
     transform: translateX(0);
     opacity: 1;
