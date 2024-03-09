@@ -161,6 +161,18 @@ body {
   }
 }
 
+.experience_card_zoomIn{
+  @apply transition-opacity animate-zoomIn;
+}
+
+.experience_card_right_to_left {
+  @apply transition-opacity animation_slideIn_right;
+}
+
+.experience_card_left_to_right {
+  @apply transition-opacity animation_slideIn_left;
+}
+
 .animate-zoomIn {
   animation: zoomIn 2.0s ease-in forwards;
 }
