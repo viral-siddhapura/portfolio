@@ -2,6 +2,7 @@ import NavigationBar from './navigation_bar';
 import SocialMedia from './social_media';
 import Footer from './footer';
 import HomePage from './homepage';
+import ThemeToggle from './components/ThemeToggle';
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
           <div className='flex flex-col basis-1/3'>
             <Footer />
           </div>
+          <ThemeToggle />
         </div>
       }
     </main>
