@@ -4,27 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 202, 240, 248;
-  --background-start-rgb: 103, 232, 249;
-  --background-end-rgb: 254, 240, 138;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 202, 240, 248;
-    --background-start-rgb: 24, 24, 27;
-    --background-end-rgb: 24, 24, 27;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
-}
-
 .sticky-nav {
   position: sticky;
   top: 0;
@@ -32,7 +11,7 @@ body {
 }
 
 .top_horizontal_div {
-  @apply font-sans font-semibold text-base text-gray-200;
+  @apply font-sans font-semibold text-base text-black dark:text-gray-200 ;
 }
 
 .top_horizontal_div:hover {
