@@ -1,6 +1,7 @@
 "use client";
 import { useState } from 'react';
 import Link from "next/link";
+import Image from 'next/image';
 
 export default function NavigationBar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -13,8 +14,9 @@ export default function NavigationBar() {
         <nav>
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <div className="flex items-center space-x-3 rtl:space-x-reverse mx-5">
-                    <img src="/images/viral_35_45mm.jpg" className="rounded-full h-8" alt="Flowbite Logo" />
-                    <span className="self-center text-2xl text-black font-semibold whitespace-nowrap dark:text-white">Viral Siddhapura</span>
+                    <div className="flex justify-between items-center bg-green-400 rounded-full">
+                        <div className="text-normal font-semibold text-black p-1 mx-2">Available for work</div>
+                    </div>
                 </div>
                 <button onClick={toggleMenu} data-collapse-toggle="navbar-default" type="button" className={`inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 ${isOpen ? 'active' : ''}`} aria-controls="navbar-default" aria-expanded="false">
                     <span className="sr-only">Open main menu</span>
