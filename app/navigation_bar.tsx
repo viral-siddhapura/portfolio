@@ -1,7 +1,6 @@
 "use client";
 import { useState } from 'react';
-import Link from "next/link";
-import Image from 'next/image';
+import ThemeToggle from './components/ThemeToggle';
 
 export default function NavigationBar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -14,8 +13,8 @@ export default function NavigationBar() {
         <nav>
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <div className="flex items-center space-x-3 rtl:space-x-reverse mx-5">
-                    <div className="flex justify-between items-center bg-green-400 rounded-full">
-                        <div className="text-normal font-semibold text-black p-1 mx-2">Available for work</div>
+                    <div className="flex justify-between items-center bg-[#E1FBEA] dark:bg-[#1C3226] rounded-full p-1">
+                        <div className="text-normal font-medium text-green-500 mx-1.5">Available for work</div>
                     </div>
                 </div>
                 <button onClick={toggleMenu} data-collapse-toggle="navbar-default" type="button" className={`inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 ${isOpen ? 'active' : ''}`} aria-controls="navbar-default" aria-expanded="false">
@@ -40,6 +39,9 @@ export default function NavigationBar() {
                         </li>
                         <li className='md:mx-2'>
                             <a href="/contact" className="top_horizontal_div">Contact</a>
+                        </li>
+                        <li className='md:mx-2'>
+                            <ThemeToggle />
                         </li>
                     </ul>
                 </div>
