@@ -5,7 +5,7 @@ import Footer from '../footer';
 import Link from "next/link";
 
 export default function Projects() {
-    const project_title = "Projects";
+    const project_title = "Projects 🎒";
     return (
         <main className='flex flex-col'>
             {
@@ -16,10 +16,10 @@ export default function Projects() {
                     <div className='flex flex-col'>
                         <div className='flex flex-row my-20 justify-center'>
                             <div className='flex flex-row'>
-                                <h1 className="ml-5 overflow-hidden leading-6 text-white">
+                                <h1 className="ml-5 overflow-hidden leading-6 text-black dark:text-white">
                                     {project_title.match(/./gu)!.map((char, index) => (
                                         <span
-                                            className="animate-text-reveal inline-block [animation-fill-mode:backwards]"
+                                            className="animate-text-reveal font-medium inline-block [animation-fill-mode:backwards]"
                                             key={`${char}-${index}`}
                                             style={{ animationDelay: `${index * 0.04}s` }}
                                         >
@@ -27,7 +27,6 @@ export default function Projects() {
                                         </span>
                                     ))}
                                 </h1>
-                                <svg className='animate-fadeIn delay-4s' xmlns="http://www.w3.org/2000/svg" fill="none" height="66" viewBox="0 0 66 66" width="66"><path d="m28.1267 4.23225c1.1879-5.175299 8.5587-5.175287 9.7466.00001l3.7596 16.38014c.4287 1.8676 1.8871 3.326 3.7547 3.7547l16.3802 3.7596c5.1752 1.1879 5.1752 8.5587-.0001 9.7466l-16.3801 3.7596c-1.8676.4287-3.326 1.8871-3.7547 3.7547l-3.7596 16.3802c-1.1879 5.1752-8.5587 5.1752-9.7466-.0001l-3.7596-16.3801c-.4287-1.8676-1.8871-3.326-3.7547-3.7547l-16.38015-3.7596c-5.175299-1.1879-5.175287-8.5587.00001-9.7466l16.38014-3.7596c1.8676-.4287 3.326-1.8871 3.7547-3.7547z" fill="#FFCC4C" /></svg>
                             </div>
                         </div>
                     </div>

@@ -11,7 +11,7 @@ export default function ExperienceList() {
         <>
             <div>
                 <div className="flex flex-row justify-evenly gap-10">
-                    <div className="flex flex-col basis-1/3 experience_card_left_to_right bg-zinc-800 rounded-lg hover:shadow-md hover:shadow-slate-300">
+                    <div className="flex flex-col basis-1/3 experience_card_left_to_right bg-zinc-800 dark:bg-none rounded-lg dark:hover:shadow-md dark:hover:shadow-slate-300 hover:shadow-md hover:shadow-gray-700">
                         <PersuasiveComputingLab />
                     </div>
                     <div className="flex flex-col basis-1/3 experience_card_zoomIn bg-zinc-800 rounded-md hover:shadow-md hover:shadow-slate-300">

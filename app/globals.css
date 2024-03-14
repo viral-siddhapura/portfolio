@@ -62,10 +62,6 @@
   @apply p-3 w-52 rounded-md bg-sky-300 hover:bg-sky-500 text-black font-semibold transition delay-150 duration-300 ease-in-out hover:-translate-y-1;
 }
 
-.social_media_css {
-  @apply mb-2 inline-flex items-center justify-center rounded-full p-3.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg;
-}
-
 .social_media_contact_me_div_css {
   @apply flex flex-row mx-80 space-x-4 p-4;
 }
@@ -76,14 +72,8 @@
 
 .animate-text-reveal {
   animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
-  font-family: 'Cutive Mono', monospace;
-  overflow: hidden;
-  /* write text color */
-  color: #fff;
-  font-size: 6rem;
-  font-weight: 600;
+  font-size: 5rem;
   line-height: 1.2;
-  animation-fill-mode: backwards;
 }
 
 .delay-4s {
