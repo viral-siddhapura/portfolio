@@ -7,7 +7,7 @@ import Link from "next/link";
 export default function Projects() {
     const project_title = "Projects 🎒";
     return (
-        <main className='flex flex-col'>
+        <main className='flex min-h-screen flex-col'>
             {
                 <div className='flex flex-col p-5'>
                     <div>

@@ -38,18 +38,6 @@
   @apply text-base font-medium text-zinc-600 dark:text-zinc-400;
 }
 
-.education_css {
-  @apply text-base font-semibold text-zinc-600 dark:text-zinc-400;
-}
-
-.university_name {
-  @apply text-2xl font-semibold text-zinc-600 dark:text-black;
-}
-
-.course_name {
-  @apply text-lg font-semibold text-zinc-600 dark:text-zinc-400;
-}
-
 .university_card_css {
   @apply text-lg font-semibold text-zinc-600 dark:text-zinc-400;
 }
@@ -181,22 +169,6 @@
 
 .project_card_right_to_left {
   @apply transition-opacity animation_slideIn_right max-w-sm p-6 bg-zinc-800 border border-gray-600 rounded-lg dark:bg-zinc-900 dark:border-gray-700;
-}
-
-.certification_animation {
-  @apply transition-opacity ease-in-out opacity-0 animate-fadeIn;
-}
-
-.education_card {
-  @apply transition-opacity ease-in-out opacity-0 animate-fadeIn border dark:border-gray-700 rounded-lg hover:shadow-lg hover:shadow-white;
-}
-
-.vertical_border {
-  @apply border-r border-gray-200 dark:border-gray-700;
-}
-
-.text_over_image {
-  @apply absolute w-full py-2.5 rounded-bl-md bottom-0 inset-x-0 bg-gray-700 text-black dark:text-white font-medium text-center leading-4;
 }
 
 @keyframes fadeIn {
