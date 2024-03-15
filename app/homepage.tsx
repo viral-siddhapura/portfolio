@@ -1,4 +1,3 @@
-'use client'
 import Link from 'next/link'
 import Image from 'next/image'
 import SocialMedia from './social_media'
@@ -7,7 +6,7 @@ export default function HomePage() {
     return (
         <div className='flex flex-col my-5 sm:my-10 md:my-20'>
             <div className='flex flex-col sm:flex-row'>
-                <div className='flex flex-col sm:w-2/3 md:w-2/3'>
+                <div className='animation_slideIn_left flex flex-col sm:w-2/3 md:w-2/3'>
                     <div>
                         <p className='text-center sm:text-start mx-5 sm:mx-10 md:mx-20 lg:mx-80 text-2xl sm:text-3xl md:text-5xl lg:text-6xl text-black dark:text-white font-bold p-2 sm:p-3 md:p-4 lg:p-5'>
                             Hello, I'm Viral! 🤔
@@ -39,7 +38,7 @@ export default function HomePage() {
                 </div>
                 <div className='flex flex-col md:w-1/3 sm:w-1/3'>
                     <Image
-                        // className='animation_slideIn_right'
+                        className='animation_slideIn_right'
                         src="/images/developer.svg"
                         alt="Description of the GIF"
                         width={350}

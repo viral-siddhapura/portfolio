@@ -3,57 +3,19 @@ import Image from 'next/image'
 export default function PersuasiveComputingLab() {
     return (
         <div className='p-2'>
-            <div className="flex items-center justify-between px-4 m-2">
-                <p className="text-emerald-500 text-xl font-serif font-semibold">Bank of America Corporation</p>
-                <p className="text-white font-sans font-semibold">July 2020 - Sep 2022</p>
+            <div className="flex justify-between m-2">
+                <p className="text-black dark:text-emerald-500 text-lg font-serif font-semibold">Bank of America Corporation</p>
+                <p className="text-gray-500 dark:text-white font-sans font-semibold">July 2020 - Sep 2022</p>
             </div>
-            <div className="flex items-center justify-between px-4 m-2 text-white font-sans font-semibold">
-                <p>Software Development Engineer - (Remote)</p>
+            <div className="flex justify-between m-2 text-gray-500 dark:text-white font-sans font-semibold">
+                <p>Software Development Engineer</p>
                 <p>GIFT CITY, India</p>
             </div>
-            <div className='flex flex-row px-2 mx-2 mt-10'>
-                <div className='flex flex-row justify-between'>
-                    <Image
-                        src='/images/dot.svg'
-                        width={25}
-                        height={25}
-                        alt={'education image'}
-                    />
-                </div>
-                <p className='text-white font-sans font-normal p-2'>Developed healthcare web app for vitals signs and drug reactions</p>
+            <div className='flex flex-row'>
+                <p className='text-black dark:text-white font-sans font-normal p-2'> - Built high-performance loan application system using Java and AWS for 213,000 clients, featuring automation testing and a React.js UI with optimized page load times</p>
             </div>
-            <div className='flex flex-row px-2 mx-2'>
-                <div className='flex flex-row justify-between'>
-                    <Image
-                        src='/images/dot.svg'
-                        width={25}
-                        height={25}
-                        alt={'education image'}
-                    />
-                </div>
-                <p className='text-white font-sans font-normal p-2'>Enhanced Authentication and Authorization with OAuth2 concepts</p>
-            </div>
-            <div className='flex flex-row px-2 mx-2'>
-                <div className='flex flex-row justify-between'>
-                    <Image
-                        src='/images/dot.svg'
-                        width={25}
-                        height={25}
-                        alt={'education image'}
-                    />
-                </div>
-                <p className='text-white font-sans font-normal p-2'>Reduced page loading time using microservices based REST APIs</p>
-            </div>
-            <div className='flex flex-row px-2 mx-2'>
-                <div className='flex flex-row justify-between'>
-                    <Image
-                        src='/images/dot.svg'
-                        width={25}
-                        height={25}
-                        alt={'education image'}
-                    />
-                </div>
-                <p className='text-white font-sans font-normal p-2'>Designed interactive app UI with vital sign graphs for visualization</p>
+            <div className='flex flex-row'>
+                <p className='text-black dark:text-white font-sans font-normal p-2'> - Led a 9-person team for 3.5 months, addressing technical issues, guiding architectural decisions, and improving code quality, while also acting as SME to onboard new hires</p>
             </div>
         </div>
     )

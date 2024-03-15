@@ -72,8 +72,29 @@
 
 .animate-text-reveal {
   animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
-  font-size: 5rem;
+  font-size: 2rem; /* default font size for mobile devices */
   line-height: 1.2;
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) {
+  .animate-text-reveal {
+    font-size: 3rem;
+  }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 992px) {
+  .animate-text-reveal {
+    font-size: 4rem;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .animate-text-reveal {
+    font-size: 5rem;
+  }
 }
 
 .delay-4s {
@@ -128,6 +149,10 @@
     transform: scale(1);
     opacity: 1;
   }
+}
+
+.experience_card_animation {
+  @apply flex flex-col w-full basis-1/3 md:basis-1/3 lg:basis-1/3 experience_card_zoomIn bg-white border-2 border-emerald-500 dark:border-0 dark:bg-zinc-800 rounded-md hover:shadow-md dark:hover:shadow-slate-300 hover:shadow-emerald-500;
 }
 
 .experience_card_zoomIn{

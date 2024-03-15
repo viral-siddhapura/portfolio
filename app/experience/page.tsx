@@ -8,11 +8,11 @@ export default function Experience() {
     const project_title = "Experience 💼";
     return (
         <main className='flex min-h-screen flex-col'>
-            <div className='flex flex-col flex-grow p-5'>
+            <div className='flex flex-col p-5'>
                 <NavigationBar />
-                <div className='flex flex-col md:flex-row justify-center'>
-                    <div className='flex flex-row my-20 justify-center md:justify-center'>
-                        <h1 className="ml-5 overflow-hidden leading-6 text-black dark:text-white">
+                <div className='flex flex-row md:flex-row justify-center'>
+                    <div className='flex flex-row md:flex-row lg:flex-row my-20 justify-center md:justify-centerlg:justify-center '>
+                        <h1 className="overflow-hidden leading-6 text-black dark:text-white">
                             {project_title.match(/./gu)!.map((char, index) => (
                                 <span
                                     className="animate-text-reveal font-medium inline-block [animation-fill-mode:backwards]"
@@ -25,8 +25,12 @@ export default function Experience() {
                         </h1>
                     </div>
                 </div>
-                <ExperienceList />
-                <Footer />
+                <div className='flex flex-row w-full basis-5/6'>
+                    <ExperienceList />
+                </div>
+                <div className='flex flex-row w-full justify-center basis-1/6'>
+                    <Footer />
+                </div>
             </div>
         </main>
     );
