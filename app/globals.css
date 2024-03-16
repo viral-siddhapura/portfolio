@@ -159,18 +159,6 @@
   animation: zoomIn 2.0s ease-in forwards;
 }
 
-.project_card {
-  @apply transition-opacity animate-zoomIn max-w-sm p-6 bg-zinc-800 border border-gray-600 rounded-lg dark:bg-zinc-900 dark:border-gray-700;
-}
-
-.project_card_left_to_right {
-  @apply transition-opacity animation_slideIn_left max-w-sm p-6 bg-zinc-800 border border-gray-600 rounded-lg dark:bg-zinc-900 dark:border-gray-700;
-}
-
-.project_card_right_to_left {
-  @apply transition-opacity animation_slideIn_right max-w-sm p-6 bg-zinc-800 border border-gray-600 rounded-lg dark:bg-zinc-900 dark:border-gray-700;
-}
-
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -179,14 +167,6 @@
   100% {
     opacity: 1;
   }
-}
-
-.project_title {
-  @apply mb-2 mt-5 text-2xl font-semibold tracking-tight text-white dark:text-white;
-}
-
-.project_description {
-  @apply mb-3 font-normal text-zinc-300 dark:text-gray-400;
 }
 
 .project_link {

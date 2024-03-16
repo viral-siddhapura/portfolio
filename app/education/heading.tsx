@@ -10,7 +10,7 @@ export default function Heading() {
             </div>
             <div className='flex flex-col justify-center items-center'>
                 <p className='text-base font-semibold text-zinc-600 dark:text-zinc-400 animate-fadeIn delay-4s text-center sm:text-center'>I actively participate in hackathons and other tech-related activities.</p>
-                <p className='text-base font-semibold text-zinc-600 dark:text-zinc-400 animate-fadeIn delay-4s text-center sm:text-center'>See my Degrees received below 🎉</p>
+                <p className='text-base font-semibold text-zinc-600 dark:text-zinc-400 animate-fadeIn delay-4s text-center sm:text-center'>See below my Education Journey so far 🏫</p>
             </div>
         </div>
     );
