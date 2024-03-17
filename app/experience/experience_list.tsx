@@ -21,66 +21,127 @@ export default function ExperienceList() {
                     <GlobalITInfoSolutions />
                 </div>
             </div>
+            <div className="flex flex-row p-20">
+
+            </div>
             <div className="container mx-auto py-8">
                 <h1 className="text-3xl font-bold mb-8 text-center">Skills</h1>
-                <p className="text-lg mb-8 text-center">Here are some of my skills on which I have been working on for the past 2 years.</p>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
-                    <div className="border-2 border-gray-900 dark:border-white bg-white dark:bg-zinc-800 p-6 rounded-lg">
+                <p className="text-lg mb-8 text-center">Here are some of my core skills on which I have been working on to diversify my portfolio.</p>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-20">
+                    <div className="border-2 border-emerald-500 shadow-emerald-400 shadow-lg dark:shadow-white dark:shadow-lg dark:border-white bg-white dark:bg-transparent p-6 rounded-lg">
                         <h2 className="text-2xl font-bold mb-4 text-center text-black dark:text-white">Frontend</h2>
                         <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-3 gap-2">
-                            <div className="text-black dark:text-white rounded-md border-2 border-gray-400 px-2 py-2 text-center font-semibold">React Js</div>
-                            <div className="text-black dark:text-white rounded-md border-2 border-gray-400 px-2 py-2 text-center font-semibold">JavaScript</div>
-                            <div className="text-black dark:text-white rounded-md border-2 border-gray-400 px-2 py-2 text-center font-semibold">Next.js</div>
-                            <div className="text-black dark:text-white rounded-md border-2 border-gray-400 px-2 py-2 text-center font-semibold">TypeScript</div>
-                            <div className="text-black dark:text-white rounded-md border-2 border-gray-400 px-2 py-2 text-center font-semibold">HTML</div>
-                            <div className="text-black dark:text-white rounded-md border-2 border-gray-400 px-2 py-2 text-center font-semibold">Flutter</div>
-                            <div className="text-black dark:text-white rounded-md border-2 border-gray-400 px-2 py-2 text-center font-semibold">Tailwind CSS</div>
-                            <div className="text-black dark:text-white rounded-md border-2 border-gray-400 px-2 py-2 text-center font-semibold">Material UI</div>
+                            <div className="flex justify-center rounded-md sm:p-5 md:p-5">
+                                <Image src="/images/techIcons/react.svg" title="React" alt="React" width={64} height={64} />
+                            </div>
+                            <div className="flex justify-center rounded-md sm:p-5 md:p-5">
+                                <Image src="/images/techIcons/javascript.svg" title="JavaScript" alt="React" width={64} height={64} />
+                            </div>
+                            <div className="flex justify-center rounded-md sm:p-5 md:p-5">
+                                <Image src="/images/techIcons/nextjs.svg" title="Next.js" alt="React" width={64} height={64} />
+                            </div>
+                            <div className="flex justify-center rounded-md sm:p-5 md:p-5">
+                                <Image src="/images/techIcons/typescript.svg" title="TypeScript" alt="React" width={64} height={64} />
+                            </div>
+                            <div className="flex justify-center rounded-md sm:p-5 md:p-5">
+                                <Image src="/images/techIcons/html.svg" title="HTML" alt="React" width={64} height={64} />
+                            </div>
+                            <div className="flex justify-center rounded-md sm:p-5 md:p-5">
+                                <Image src="/images/techIcons/flutter.svg" title="Flutter" alt="React" width={64} height={64} />
+                            </div>
+                            <div className="flex justify-center rounded-md sm:p-5 md:p-5">
+                                <Image src="/images/techIcons/tailwindcss.svg" title="Tailwind CSS" alt="React" width={64} height={64} />
+                            </div>
+                            <div className="flex justify-center rounded-md sm:p-5 md:p-5">
+                                <Image src="/images/techIcons/materialui.svg" title="Material UI" alt="React" width={64} height={64} />
+                            </div>
                         </div>
                     </div>
-                    <div className="border-2 border-gray-900 dark:border-white bg-white dark:bg-zinc-800 p-6 rounded-lg">
-                        <h2 className="text-2xl font-bold mb-4 text-center">Backend</h2>
+                    <div className="border-2 border-red-500 shadow-red-400 shadow-lg dark:shadow-white dark:shadow-lg dark:border-white bg-white dark:bg-transparent p-6 rounded-lg">
+                        <h2 className="text-2xl font-bold mb-4 text-center text-black dark:text-white">Backend</h2>
                         <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-3 gap-2">
-                            <div className="text-black dark:text-white rounded-md border-2 border-gray-400 px-2 py-2 text-center">Java</div>
-                            <div className="text-black dark:text-white rounded-md border-2 border-gray-400 px-2 py-2 text-center">Python</div>
-                            <div className="text-black dark:text-white rounded-md border-2 border-gray-400 px-2 py-2 text-center">Spring</div>
-                            <div className="text-black dark:text-white rounded-md border-2 border-gray-400 px-2 py-2 text-center">Express.js</div>
-                            <div className="text-black dark:text-white rounded-md border-2 border-gray-400 px-2 py-2 text-center">Flask</div>
-                            <div className="text-black dark:text-white rounded-md border-2 border-gray-400 px-2 py-2 text-center">Bun.js</div>
-                            <div className="text-black dark:text-white rounded-md border-2 border-gray-400 px-2 py-2 text-center">Node.js</div>
-                            <div className="text-black dark:text-white rounded-md border-2 border-gray-400 px-2 py-2 text-center">Django</div>
+                            <div className="flex justify-center rounded-md sm:p-5 md:p-5">
+                                <Image src="/images/techIcons/java.svg" title="Java" alt="React" width={64} height={64} />
+                            </div>
+                            <div className="flex justify-center rounded-md sm:p-5 md:p-5">
+                                <Image src="/images/techIcons/python.svg" title="Python" alt="React" width={64} height={64} />
+                            </div>
+                            <div className="flex justify-center rounded-md sm:p-5 md:p-5">
+                                <Image src="/images/techIcons/spring.svg" title="Spring" alt="React" width={64} height={64} />
+                            </div>
+                            <div className="flex justify-center rounded-md sm:p-5 md:p-5">
+                                <Image src="/images/techIcons/expressjs.svg" title="Express.js" alt="React" width={64} height={64} />
+                            </div>
+                            <div className="flex justify-center rounded-md sm:p-5 md:p-5">
+                                <Image src="/images/techIcons/flask.svg" title="Flask" alt="React" width={64} height={64} />
+                            </div>
+                            <div className="flex justify-center rounded-md sm:p-5 md:p-5">
+                                <Image src="/images/techIcons/bun.svg" title="Bun.js" alt="React" width={64} height={64} />
+                            </div>
+                            <div className="flex justify-center rounded-md sm:p-5 md:p-5">
+                                <Image src="/images/techIcons/nodejs.svg" title="Node.js" alt="React" width={64} height={64} />
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div className="container mx-auto py-8">
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
-                    <div className="border-2 border-gray-900 dark:border-white bg-white dark:bg-zinc-800 p-6 rounded-lg">
-                        <h2 className="text-2xl font-bold mb-4 text-center">Database</h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-20">
+                    <div className="border-2 border-yellow-500 shadow-yellow-400 shadow-lg dark:shadow-white dark:shadow-lg dark:border-white bg-white dark:bg-transparent p-6 rounded-lg">
+                        <h2 className="text-2xl font-bold mb-4 text-center text-black dark:text-white">Database</h2>
                         <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-3 gap-2">
-                            <div className="text-black dark:text-white rounded-md border-2 border-gray-400 px-2 py-2 text-center">MySQL</div>
-                            <div className="text-black dark:text-white rounded-md border-2 border-gray-400 px-2 py-2 text-center">PostgreSQL</div>
-                            <div className="text-black dark:text-white rounded-md border-2 border-gray-400 px-2 py-2 text-center">MongoDB</div>
-                            <div className="text-black dark:text-white rounded-md border-2 border-gray-400 px-2 py-2 text-center">Firebase</div>
-                            <div className="text-black dark:text-white rounded-md border-2 border-gray-400 px-2 py-2 text-center">DynamoDB</div>
-                            <div className="text-black dark:text-white rounded-md border-2 border-gray-400 px-2 py-2 text-center">GraphQL</div>
-                            <div className="text-black dark:text-white rounded-md border-2 border-gray-400 px-2 py-2 text-center">SQLite</div>
-                            <div className="text-black dark:text-white rounded-md border-2 border-gray-400 px-2 py-2 text-center">Ne04j</div>
+                            <div className="flex justify-center rounded-md sm:p-5 md:p-5">
+                                <Image src="/images/techIcons/mysql.svg" title="MySQL" alt="React" width={64} height={64} />
+                            </div>
+                            <div className="flex justify-center rounded-md sm:p-5 md:p-5">
+                                <Image src="/images/techIcons/postgresql.svg" title="PostgreSQL" alt="React" width={64} height={64} />
+                            </div>
+                            <div className="flex justify-center rounded-md sm:p-5 md:p-5">
+                                <Image src="/images/techIcons/mongodb.svg" title="Next.js" alt="React" width={64} height={64} />
+                            </div>
+                            <div className="flex justify-center rounded-md sm:p-5 md:p-5">
+                                <Image src="/images/techIcons/firebase.svg" title="TypeScript" alt="React" width={64} height={64} />
+                            </div>
+                            <div className="flex justify-center rounded-md sm:p-5 md:p-5">
+                                <Image src="/images/techIcons/dynamodb.svg" title="HTML" alt="React" width={64} height={64} />
+                            </div>
+                            <div className="flex justify-center rounded-md sm:p-5 md:p-5">
+                                <Image src="/images/techIcons/graphql.svg" title="GraphQL" alt="React" width={64} height={64} />
+                            </div>
+                            <div className="flex justify-center rounded-md sm:p-5 md:p-5">
+                                <Image src="/images/techIcons/sqlite.svg" title="SQLite" alt="React" width={64} height={64} />
+                            </div>
+                            <div className="flex justify-center rounded-md sm:p-5 md:p-5">
+                                <Image src="/images/techIcons/neo4j.svg" title="Neo4j" alt="React" width={64} height={64} />
+                            </div>
                         </div>
-                    </div>
-                    <div className="border-2 border-gray-900 dark:border-white bg-white dark:bg-zinc-800 p-6 rounded-lg">
-                        <h2 className="text-2xl font-bold mb-4 text-center">Cloud and DevOps</h2>
+                    </div><div className="border-2 border-sky-500 shadow-sky-400 shadow-lg dark:shadow-white dark:shadow-lg dark:border-white bg-white dark:bg-transparent p-6 rounded-lg">
+                        <h2 className="text-2xl font-bold mb-4 text-center text-black dark:text-white">Cloud and DevOps</h2>
                         <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-3 gap-2">
-                            <div className="text-black dark:text-white rounded-md border-2 border-gray-400 px-2 py-2 text-center">Amazon Web Services</div>
-                            <div className="text-black dark:text-white rounded-md border-2 border-gray-400 px-2 py-2 text-center">Google Cloud Platform</div>
-                            <div className="text-black dark:text-white rounded-md border-2 border-gray-400 px-2 py-2 text-center">Azure Cloud Platform</div>
-                            <div className="text-black dark:text-white rounded-md border-2 border-gray-400 px-2 py-2 text-center">Netlify</div>
-                            <div className="text-black dark:text-white rounded-md border-2 border-gray-400 px-2 py-2 text-center">Vercel</div>
-                            <div className="text-black dark:text-white rounded-md border-2 border-gray-400 px-2 py-2 text-center">Render</div>
-                            <div className="text-black dark:text-white rounded-md border-2 border-gray-400 px-2 py-2 text-center">Docker</div>
-                            <div className="text-black dark:text-white rounded-md border-2 border-gray-400 px-2 py-2 text-center">Git tools</div>
-                            <div className="text-black dark:text-white rounded-md border-2 border-gray-400 px-2 py-2 text-center">JIRA</div>
-                            <div className="text-black dark:text-white rounded-md border-2 border-gray-400 px-2 py-2 text-center">Postman</div>
+                            <div className="flex justify-center rounded-md sm:p-5 md:p-5">
+                                <Image src="/images/techIcons/aws.svg" title="Amazon Web Services" alt="React" width={64} height={64} />
+                            </div>
+                            <div className="flex justify-center rounded-md sm:p-5 md:p-5">
+                                <Image src="/images/techIcons/gcp.svg" title="Google Cloud Platform" alt="React" width={64} height={64} />
+                            </div>
+                            <div className="flex justify-center rounded-md sm:p-5 md:p-5">
+                                <Image src="/images/techIcons/azure.svg" title="Azure CLoud Platform" alt="React" width={64} height={64} />
+                            </div>
+                            <div className="flex justify-center rounded-md sm:p-5 md:p-5">
+                                <Image src="/images/techIcons/netlify.svg" title="Netlify" alt="React" width={64} height={64} />
+                            </div>
+                            <div className="flex justify-center rounded-md sm:p-5 md:p-5">
+                                <Image src="/images/techIcons/docker.svg" title="Docker" alt="React" width={64} height={64} />
+                            </div>
+                            <div className="flex justify-center rounded-md sm:p-5 md:p-5">
+                                <Image src="/images/techIcons/git.svg" title="GIT Tools" alt="React" width={64} height={64} />
+                            </div>
+                            <div className="flex justify-center rounded-md sm:p-5 md:p-5">
+                                <Image src="/images/techIcons/jira.svg" title="JIRA" alt="React" width={64} height={64} />
+                            </div>
+                            <div className="flex justify-center rounded-md sm:p-5 md:p-5">
+                                <Image src="/images/techIcons/postman.svg" title="Postman" alt="React" width={64} height={64} />
+                            </div>
                         </div>
                     </div>
                 </div>

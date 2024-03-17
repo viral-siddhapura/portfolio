@@ -12,7 +12,7 @@ export default function Experience() {
                 <NavigationBar />
                 <div className='flex flex-row md:flex-row justify-center'>
                     <div className='flex flex-row md:flex-row lg:flex-row my-20 justify-center md:justify-centerlg:justify-center'>
-                        <h1 className='animate-zoomIn font-semibold font-sans text-black dark:text-white text-6xl'>{project_title}</h1>
+                        <h1 className='animate-zoomIn font-semibold font-sans text-black dark:text-white text-5xl'>{project_title}</h1>
                     </div>
                 </div>
                 <div className='flex flex-row w-full basis-5/6'>
