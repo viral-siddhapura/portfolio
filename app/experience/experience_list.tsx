@@ -21,9 +21,7 @@ export default function ExperienceList() {
                     <GlobalITInfoSolutions />
                 </div>
             </div>
-            <div className="flex flex-row p-20">
-
-            </div>
+            <div className="flex flex-row p-20"></div>
             <div className="container mx-auto py-8">
                 <h1 className="text-3xl font-bold mb-8 text-center">Skills</h1>
                 <p className="text-lg mb-8 text-center">Here are some of my core skills on which I have been working on to diversify my portfolio.</p>
