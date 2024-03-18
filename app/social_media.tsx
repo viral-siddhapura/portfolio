@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function SocialMedia() {
     return (
-        <div className='flex flex-row space-x-4 md:space-x-4 lg:space-x-4 sm:space-x-4 xl:space-x-4 2xl:space-x-4 mx-5 sm:mx-10 md:mx-20 lg:mx-60 p-2 sm:p-3 md:p-4 lg:p-4'>
+        <div className='flex flex-row space-x-4 md:space-x-4 lg:space-x-4 sm:space-x-4 xl:space-x-4 2xl:space-x-4 p-2 sm:p-3 md:p-4 lg:p-4'>
             {/* Github Button */}
             <div>
                 <Link href="https://github.com/HVMS" target="_blank" rel="noopener noreferrer">

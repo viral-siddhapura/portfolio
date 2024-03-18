@@ -5,12 +5,18 @@ import ThemeToggle from './components/ThemeToggle';
 
 export default function Home() {
   return (
-    <main className='flex min-h-screen flex-col'>
+    <main>
       {
         <div className='flex flex-col flex-grow p-5'>
-          <NavigationBar />
-          <HomePage />
-          <Footer />
+          <div className='flex flex-col basis-1/6'>
+            <NavigationBar />
+          </div>
+          <div className='flex flex-col basis-5/6'>
+            <HomePage />
+          </div>
+          {/* <div className='flex flex-col basis-1/6'>
+            <Footer />
+          </div> */}
         </div>
       }
     </main>

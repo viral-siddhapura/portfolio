@@ -18,9 +18,9 @@ export default function Experience() {
                 <div className='flex flex-row w-full basis-5/6'>
                     <ExperienceList />
                 </div>
-                <div className='flex flex-row w-full justify-center basis-1/6 p-2'>
+                {/* <div className='flex flex-row w-full justify-center basis-1/6 p-2'>
                     <Footer />
-                </div>
+                </div> */}
             </div>
         </main>
     );

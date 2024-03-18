@@ -107,7 +107,7 @@ export default function Contact() {
                             <ContactForm></ContactForm>
                         </div>
                     </div>
-                    <Footer />
+                    {/* <Footer /> */}
                 </div>
             }
         </main>

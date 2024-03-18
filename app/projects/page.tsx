@@ -18,7 +18,7 @@ export default function Projects() {
                             More Projects (GitHub)
                         </Link>
                     </div>
-                    <Footer />
+                    {/* <Footer /> */}
                 </div>
             }
         </main>

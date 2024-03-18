@@ -14,7 +14,7 @@ export default function Education() {
                     <Heading />
                     <Colleges />
                     <Certifications />
-                    <Footer />
+                    {/* <Footer /> */}
                 </div>
             }
         </main>
