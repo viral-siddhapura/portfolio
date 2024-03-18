@@ -11,13 +11,13 @@ export default function ExperienceList() {
     return (
         <div>
             <div className="flex flex-col w-full md:flex-row lg:flex-row justify-evenly gap-10">
-                <div className="experience_card_animation">
+                <div className="experience_card_animation_left_to_right">
                     <PersuasiveComputingLab />
                 </div>
-                <div className="experience_card_animation">
+                <div className="experience_card_animation_zoomIn">
                     <BankOfAmerica />
                 </div>
-                <div className="experience_card_animation">
+                <div className="experience_card_animation_right_to_left">
                     <GlobalITInfoSolutions />
                 </div>
             </div>

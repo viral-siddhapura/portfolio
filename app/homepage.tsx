@@ -6,7 +6,7 @@ export default function HomePage() {
     return (
         <div className='flex flex-col my-5 sm:my-10 md:my-20'>
             <div className='flex flex-col sm:flex-row'>
-                <div className='animation_slideIn_left flex flex-col sm:w-2/3 md:w-2/3'>
+                <div className='animation_slideIn_left flex flex-col sm:w-2/3 md:w-2/3 lg:w-2/3'>
                     <div>
                         <p className='mx-5 sm:mx-10 md:mx-20 lg:mx-60 text-2xl sm:text-3xl md:text-5xl lg:text-6xl text-black dark:text-white font-bold p-2 sm:p-3 md:p-4 lg:p-4'>
                             Hello, I'm Viral! 🤔
@@ -18,12 +18,14 @@ export default function HomePage() {
                         </p>
                     </div>
                     <div className='flex flex-row mx-5 sm:mx-10 md:mx-20 lg:mx-60 font-bold p-1 sm:p-3 md:p-4 lg:p-4'>
-                        <Image src="/images/location.svg" alt="location" width={24} height={24} />
+                        <Link href={'https://www.google.com/maps/place/Halifax,+NS,+Canada'} target='_blank' >
+                            <Image src="/images/location.svg" alt="location" width={24} height={24} />
+                        </Link>
                         <p className='ml-2 text-base sm:text-md md:text-lg lg:text-xl font-medium text-[#3F99E2] dark:text-[#3F99E2]'>Halifax, Canada</p>
                     </div>
                     <div className='mx-5 sm:mx-10 md:mx-20 lg:mx-60 font-bold p-2 sm:p-3 md:p-4 lg:p-4'>
                         <p className='text-xs sm:text-sm md:text-base lg:text-base font-medium text-zinc-600 dark:text-zinc-400'>
-                            Passionate about Learning Next generation web and Cloud technologies with 3+ years of experience. Skilled in Python, Lightning Web Components, Core Java, AWS, and Web Development.
+                            Passionate about learning Next generation web & Cloud technologies with 3+ years of experience. Skilled in Python, Lightning Web Components, Core Java, AWS, and Web Development.
                         </p>
                     </div>
                     <SocialMedia />
