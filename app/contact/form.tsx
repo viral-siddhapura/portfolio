@@ -47,20 +47,20 @@ export default function ContactForm() {
             <form className="animation_slideIn_right" onSubmit={handleSubmit} >
                 <div>
                     <input type='text' placeholder='John Doe' name='name' id="form-name" autoComplete="name" maxLength={50}
-                        className="w-full rounded-md my-2 py-3 px-4 bg-[#292929] text-sm text-white border-2 border-blue-400" 
+                        className="w-full rounded-md my-2 py-3 px-4 bg-[#fff] dark:bg-[#292929] text-sm text-white border-2 border-gray-500" 
                         onChange={(e) => setName(e.target.value)} />
                     <input type='email' placeholder='hello@example.com' name='email' id="form-email" required autoComplete="email"
-                        className="w-full rounded-md my-2 py-3 px-4 bg-[#292929] text-sm text-white border-2 border-blue-400"
+                        className="w-full rounded-md my-2 py-3 px-4 bg-[#fff] dark:bg-[#292929] text-sm text-white border-2 border-gray-500"
                         onChange={(e) => setEmail(e.target.value)} />
                     <input type='text' placeholder='Subject' name='subject' id="form-subject" required autoComplete="subject"
-                        className="w-full rounded-md my-2 py-3 px-4 bg-[#292929] text-sm text-white border-2 border-blue-400" 
+                        className="w-full rounded-md my-2 py-3 px-4 bg-[#fff] dark:bg-[#292929] text-sm text-white border-2 border-gray-500" 
                         onChange={(e) => setSubject(e.target.value)}  />
                     <textarea placeholder='I heard you are the best' rows={6} required name='message' id="form-message"
-                        className="w-full rounded-md my-2 py-3 px-4 bg-[#292929] text-sm text-white border-2 border-blue-400" 
+                        className="w-full rounded-md my-2 py-3 px-4 bg-[#fff] dark:bg-[#292929] text-sm text-white border-2 border-gray-500" 
                         onChange={(e) => setMessage(e.target.value)} />
                 </div>
                 <button type='submit'
-                    className=" w-full bg-[#2f60d1] hover:bg-[#5c80d5] font-semibold rounded-md text-sm text-white px-4 py-4">Send Message</button>
+                    className=" w-full bg-[#3bd87c] font-semibold rounded-md text-md text-black px-4 py-4">Send Message</button>
             </form>
         </main>
     );
