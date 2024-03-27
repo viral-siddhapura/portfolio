@@ -59,7 +59,7 @@ export default function SocialMedia() {
             </div>
             {/* LinkedIn Button */}
             <div>
-                <Link href="https://www.linkedin.com/in/viral-siddhapura-a5042714a/" target="_blank" rel="noopener noreferrer">
+                <Link href="https://www.linkedin.com/in/viral-siddhapura/" target="_blank" rel="noopener noreferrer">
                     <button
                         type="button"
                         className="rounded-full p-3.5 hover:shadow-lg hover:shadow-cyan-300"
