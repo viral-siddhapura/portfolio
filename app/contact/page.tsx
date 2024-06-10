@@ -46,7 +46,7 @@ export default function Contact() {
                                         <li className="h-10 w-10 rounded-full flex items-center justify-center shrink-0">
                                             <div>
                                                 {/* Github Button */}
-                                                <Link href="https://github.com/HVMS" target="_blank" rel="noopener noreferrer">
+                                                <Link href="https://github.com/viral-siddhapura" target="_blank" rel="noopener noreferrer">
                                                     <button
                                                         type="button"
                                                         className="rounded-full p-3.5 hover:shadow-xl hover:shadow-zinc-800"
