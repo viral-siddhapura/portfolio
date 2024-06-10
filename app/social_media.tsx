@@ -5,7 +5,7 @@ export default function SocialMedia() {
         <div className='flex flex-row space-x-4 md:space-x-4 lg:space-x-4 sm:space-x-4 xl:space-x-4 2xl:space-x-4 p-2 sm:p-3 md:p-4 lg:p-4'>
             {/* Github Button */}
             <div>
-                <Link href="https://github.com/HVMS" target="_blank" rel="noopener noreferrer">
+                <Link href="https://github.com/viral-siddhapura" target="_blank" rel="noopener noreferrer">
                     <button
                         type="button"
                         className="rounded-full p-3.5 hover:shadow-xl hover:shadow-zinc-800"
