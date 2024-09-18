@@ -35,7 +35,7 @@ export default function HomePage() {
                                 Contact me
                             </button>
                         </Link>
-                        <Link href={'https://drive.google.com/file/d/1TLo-ZZXZJ8pXYPZoCSl-d0uSH9iugJEN/view?usp=drive_link'} target='_blank' >
+                        <Link href={'https://drive.google.com/file/d/1H3ftmxP84pDf8K2AZEmG0TkOVIuDk5i6/view?usp=drive_link'} target='_blank' >
                             <button className='p-2 sm:p-3 w-full sm:w-44 items-center justify-center rounded-md bg-sky-300 hover:bg-sky-500 text-black font-semibold transition delay-150 duration-300 ease-in-out hover:-translate-y-1'>
                                 See my Resume
                             </button>
